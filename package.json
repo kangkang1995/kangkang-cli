@@ -1,0 +1,30 @@
+{
+  "name": "skeleton",
+  "version": "1.0.25",
+  "description": "skeleton for dianjingquan",
+  "main": "bin/skeleton.js",
+  "directories": {
+    "test": "test"
+  },
+  "bin": {
+    "skeleton": "./bin/skeleton.js"
+  },
+  "publishConfig": {
+    "registry": "http://47.96.255.76:8081/repository/djq-npm-hosted/"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.16.0",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.0.11",
+    "inquirer": "^6.2.2",
+    "ora": "^2.1.0"
+  },
+  "scripts": {
+    "test": "node ./bin/skeleton.js"
+  },
+  "author": "huihui",
+  "license": "ISC"
+}
