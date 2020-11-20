@@ -1,7 +1,7 @@
 {
-  "name": "skeleton",
-  "version": "1.0.25",
-  "description": "skeleton for dianjingquan",
+  "name": "huaxiang-cli",
+  "version": "0.1.0",
+  "description": "命令行脚手架",
   "main": "bin/skeleton.js",
   "directories": {
     "test": "test"
@@ -10,7 +10,7 @@
     "skeleton": "./bin/skeleton.js"
   },
   "publishConfig": {
-    "registry": "http://47.96.255.76:8081/repository/djq-npm-hosted/"
+    "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
     "chalk": "^2.4.1",
@@ -25,6 +25,5 @@
   "scripts": {
     "test": "node ./bin/skeleton.js"
   },
-  "author": "huihui",
   "license": "ISC"
 }

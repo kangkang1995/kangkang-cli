@@ -16,7 +16,7 @@ program
 
 program
   .command('add')
-  .description('Add a new template')
+  .description('Add a new template,不推荐')
   .alias('a')
   .action(() => {
     require('../command/add')()
@@ -40,7 +40,7 @@ program
 
 program
   .command('delete')
-  .description('Delete a template')
+  .description('Delete a template,不推荐')
   .alias('d')
   .action(() => {
     require('../command/delete')()

@@ -103,4 +103,5 @@ module.exports = (foldName) => {
     packageTemp = Object.assign({}, packageTemp, result);
     skeleton_build(project - 1,packageTemp);
   })
+  
 };

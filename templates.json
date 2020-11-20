@@ -5,24 +5,6 @@
       "des": "React多页面工程",
       "gitUrl": "http://47.97.73.41:10086/Huihui/skeleton-react.git",
       "branch": "master"
-    },
-    {
-      "name": "Vue",
-      "des": "Vue多页面工程",
-      "gitUrl": "http://47.97.73.41:10086/Huihui/skeleton-vue.git",
-      "branch": "master"
-    },
-    {
-      "name": "React-bussiness",
-      "des": "React编辑后台工程",
-      "gitUrl": "http://47.97.73.41:10086/Huihui/skeleton-react-bussiness.git",
-      "branch": "master"
-    },
-    {
-      "name": "React-bussiness-component",
-      "des": "React编辑后台组件工程",
-      "gitUrl": "http://47.97.73.41:10086/skeleton/skeleton-react-bussiness-component.git",
-      "branch": "master"
     }
   ],
   "packageTemp": {

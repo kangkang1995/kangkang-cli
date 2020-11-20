@@ -2,6 +2,6 @@
 const config = require('../templates');
 
 module.exports = () => {
-  console.log(config.tpl);
+  console.log(config.template);
   process.exit()
 }
