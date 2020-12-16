@@ -5,6 +5,12 @@
       "des": "React多页面工程",
       "gitUrl": "http://47.97.73.41:10086/Huihui/skeleton-react.git",
       "branch": "master"
+    },
+    {
+      "name": "React",
+      "des": "React多页面工程22",
+      "gitUrl": "http://47.97.73.41:10086/Huihui/skeleton-react.git",
+      "branch": "master"
     }
   ],
   "packageTemp": {
