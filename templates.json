@@ -1,19 +1,13 @@
 {
-  "template": [
-    {
-      "name": "React",
-      "des": "React多页面工程",
-      "gitUrl": "http://47.97.73.41:10086/Huihui/skeleton-react.git",
-      "branch": "master"
-    },
-    {
-      "name": "React",
-      "des": "React多页面工程22",
-      "gitUrl": "http://47.97.73.41:10086/Huihui/skeleton-react.git",
-      "branch": "master"
+    "template": [
+        {
+            "name": "React",
+            "des": "react-webpack-template事例",
+            "gitUrl": "https://github.com/kangkang1995/react-webpack-template.git",
+            "branch": "master"
+        }
+    ],
+    "packageTemp": {
+        "version": "1.0.0"
     }
-  ],
-  "packageTemp": {
-    "version": "1.0.0"
-  }
 }
