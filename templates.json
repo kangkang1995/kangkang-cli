@@ -2,10 +2,23 @@
     "template": [
         {
             "name": "React",
-            "des": "react-webpack-template事例",
+            "des": "react-webpack-template宽松",
             "gitUrl": "https://github.com/kangkang1995/react-webpack-template.git",
+            "branch": "easy-1.0.0"
+        },
+        {
+            "name": "React",
+            "des": "react-webpack-template严格",
+            "gitUrl": "https://github.com/kangkang1995/react-webpack-template.git",
+            "branch": " strict-1.0.0"
+        },
+        {
+            "name": "parcel",
+            "des": "react-parcel-template严格",
+            "gitUrl": "https://github.com/kangkang1995/luban-tree-parcel.git",
             "branch": "master"
         }
+        
     ],
     "packageTemp": {
         "version": "1.0.0"
