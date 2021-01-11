@@ -113,14 +113,14 @@ module.exports = (foldName) => {
                 // console.log(result,'result1')
                 fs.writeFileSync(fileName, result);
             }
-            spinner.start(chalkRunning(`npm install ...`));
+            spinner.start(chalkRunning(`yarn ...,装依赖中,请稍后...`));
             exec(
                 `${
                     typeof foldName === "string" ? `cd ${foldName} && ` : ""
-                }npm install`,
+                } yarn`,
                 (error, stdout, stderr) => {
                     if (error) {
-                        spinner.fail(error);
+                        spinner.fail(error, "请手动安装依赖");
                         process.exit();
                     }
                     spinner.succeed(chalkSucceed("build succeed!"));

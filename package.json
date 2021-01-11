@@ -1,13 +1,13 @@
 {
   "name": "huaxiang-cli",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "命令行脚手架",
   "main": "bin/skeleton.js",
   "directories": {
     "test": "test"
   },
   "bin": {
-    "skeletonCli": "./bin/skeleton.js"
+    "zhihuiCli": "./bin/skeleton.js"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
