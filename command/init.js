@@ -123,7 +123,7 @@ module.exports = (foldName) => {
                         spinner.fail(error, "请手动安装依赖");
                         process.exit();
                     }
-                    spinner.succeed(chalkSucceed("build succeed!"));
+                    spinner.succeed(chalkSucceed("恭喜，成功...!"));
                     process.exit();
                 }
             );
